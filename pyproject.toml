@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-stripe-integration"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.71.0"
+uvicorn = "^0.17.0"
+isort = "^5.10.1"
+autoflake = "^1.4"
+stripe = "^2.64.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
